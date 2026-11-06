@@ -1,0 +1,186 @@
+body{
+    background-color: rgb(73, 48, 15);
+    margin: 0;
+}
+.card{
+    button{
+     padding: 20px 50px;
+        border-radius: 10px;
+        border-color: transparent;
+        background-color: rgb(255, 153, 0);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: rgb(0, 0, 0)
+}
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    
+    color: rgb(255, 153, 0);
+    p{
+        font-size: 300%;
+        line-height: 0.5;
+        margin: 0;
+        font-family: Haettenschweiler;
+    }
+    div{
+        padding: 20px;
+        border-color: grey;
+        
+    }
+}
+
+
+.items{
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.content{
+    background-color: black;
+}
+
+.img{
+    background-color: rgb(255, 234, 215);
+}
+
+h2{
+    font-family: segoe script;
+    line-height: 0.5;
+    
+}
+header{
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: rgb(255, 234, 215);
+    margin: 0;
+    
+    button{
+        padding: 15px;
+        padding: 10px;
+        border-radius: 20px;
+        border-color: transparent;
+        background-color: rgb(0, 0, 0);
+        border: solid 1px rgb(36, 36, 36);
+        color: rgb(255, 255, 255);
+    }
+    .signup{
+        padding: 15px;
+        padding: 10px;
+        border-radius: 20px;
+        border-color: transparent;
+        background-color: rgb(255, 255, 255);
+        border: solid 1px rgb(187, 164, 164);
+        color: rgb(128, 79, 79);
+    }
+
+    p{
+        font-family: Milky Brush;
+        line-height: 30px;
+        padding: 0px;
+  
+        margin: 0;
+        margin-top: 20px;
+        font-size: 400%;
+        
+    }
+    h3{
+        padding: 0px;
+        
+        line-height: 0px;
+        font-family: segoe script;
+        
+    }
+    input{
+
+        flex-wrap: wrap;
+        padding: 10px;
+        border-radius: 10px;
+        border-color: transparent;
+        border: solid 1px rgb(182, 181, 181);
+        width: 100%;
+    }
+}
+
+header > div{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+button:hover{
+    background-color: rgb(255, 169, 57);
+    color: white;
+    border: none;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: grey;
+}
+
+@media screen and (max-width: 768px) {
+  .thingstobehidden {
+    display: none; 
+  }
+  .landing{
+    padding: 20px;
+    background-size: 50%;
+    background-position: right top;
+  }
+  .brewed{
+    p{
+        font-size: 300%;
+    }
+  }
+  section{
+    background-size: 300%;
+  }
+  .clickables{
+    button{
+        padding: 20px;
+    }
+  }
+  
+
+}
+
+@media screen and (max-width: 768px) {
+  .thingstobehidden {
+    display: none; 
+  }
+  .landing{
+    padding: 20px;
+    background-size: 50%;
+    background-position: right top;
+  }
+  .brewed{
+    p{
+        font-size: 300%;
+    }
+  }
+  section{
+    background-size: 300%;
+  }
+  .clickables{
+    button{
+        padding: 20px;
+    }
+  }
+    .items{
+        
+        .card:last-of-type{
+            display: none;
+        }
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
